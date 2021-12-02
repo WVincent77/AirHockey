@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Controls : MonoBehaviour
 {
+    public float verticalInput;
     public float horizontalInput;
     public float speed = 10.0f;
     public float force = 20.0f;
@@ -22,19 +23,24 @@ public class Controls : MonoBehaviour
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * speed);
 
-        if (transform.position.x < lBarrier)
+        if (transform.position.x > lBarrier)
         {
             transform.position = new Vector3(lBarrier, transform.position.y, transform.position.z);
         }
 
-        if (transform.position.x > rBarrier)
+        if (transform.position.x < rBarrier)
         {
             transform.position = new Vector3(rBarrier, transform.position.y, transform.position.z);
         }
 
-        if (Input.GetKey(KeyCode.Space))
-        {
-            transform.Translate(Vector3.forward * Time.deltaTime * force);
-        }
+        //if (Input.GetKey(KeyCode.Space))
+        //{
+        //transform.Translate(Vector3.forward * Time.deltaTime * force);
+        //}
+
+        verticalInput = Input.GetAxis("Vertical");
+        transform.Translate(Vector3.forward * verticalInput * Time.deltaTime * speed);
+
+
     }
 }
