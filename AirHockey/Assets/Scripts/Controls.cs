@@ -22,12 +22,12 @@ public class Controls : MonoBehaviour
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * speed);
 
-        if (transform.position.x > lBarrier)
+        if (transform.position.x < lBarrier)
         {
             transform.position = new Vector3(lBarrier, transform.position.y, transform.position.z);
         }
 
-        if (transform.position.x < rBarrier)
+        if (transform.position.x > rBarrier)
         {
             transform.position = new Vector3(rBarrier, transform.position.y, transform.position.z);
         }
