@@ -23,7 +23,7 @@ public class Controls : MonoBehaviour
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * speed);
 
-        if (transform.position.x > lBarrier)
+        /*if (transform.position.x > lBarrier)
         {
             transform.position = new Vector3(lBarrier, transform.position.y, transform.position.z);
         }
@@ -32,6 +32,7 @@ public class Controls : MonoBehaviour
         {
             transform.position = new Vector3(rBarrier, transform.position.y, transform.position.z);
         }
+        */
 
         //if (Input.GetKey(KeyCode.Space))
         //{

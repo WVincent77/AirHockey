@@ -15,11 +15,11 @@ C:/Users/Will/Documents/GitHub/AirHockey/AirHockey
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50187
+56646
 Successfully changed project path to: C:/Users/Will/Documents/GitHub/AirHockey/AirHockey
 C:/Users/Will/Documents/GitHub/AirHockey/AirHockey
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 25.16 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 26.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.15f2 (6cf78cb77498)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Resources/UnitySubsystems
@@ -35,98 +35,98 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001692 seconds.
+Registered in 0.001662 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 24.43 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 25.79 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.898 seconds
+- Completed reload, in  0.915 seconds
 Domain Reload Profiling:
-	ReloadAssembly (898ms)
-		BeginReloadAssembly (42ms)
+	ReloadAssembly (915ms)
+		BeginReloadAssembly (45ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (316ms)
-			LoadAssemblies (40ms)
+		EndReloadAssembly (318ms)
+			LoadAssemblies (42ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (115ms)
+			SetupTypeCache (118ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (24ms)
 			SetupLoadedEditorAssemblies (121ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (24ms)
+				RefreshPlugins (26ms)
 				BeforeProcessingInitializeOnLoad (5ms)
-				ProcessInitializeOnLoadAttributes (65ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				ProcessInitializeOnLoadAttributes (64ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003477 seconds.
+Registered in 0.003592 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000248FED20190 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001C3492AA010 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024724A42010 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001C348286030 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000248FEFFEFD0 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001C344C08630 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024723452230 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001C34829B640 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024723D42010 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001C347FC3020 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024723F78E20 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001C344584CD0 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024724A9E010 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001C347FC3020 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024723452230 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001C34829B640 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024723260C20 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001C3482E8230 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024724B69430 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001C344C08630 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024723D42010 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000001C348489020 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002472337E420 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001C344C08630 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000247238EB620 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001C347FE9230 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.271 seconds
+- Completed reload, in  3.174 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2272ms)
-		BeginReloadAssembly (116ms)
+	ReloadAssembly (3174ms)
+		BeginReloadAssembly (121ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (2102ms)
-			LoadAssemblies (65ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (3001ms)
+			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (207ms)
+			SetupTypeCache (210ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (1724ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (2615ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (43ms)
-				ProcessInitializeOnLoadAttributes (1667ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (2557ms)
 				ProcessInitializeOnLoadMethodAttributes (3ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
@@ -136,14 +136,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1414 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.1 MB.
-System memory in use after: 67.2 MB.
+Unloading 1416 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.2 MB.
+System memory in use after: 67.3 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1848.
-Total: 1.759200 ms (FindLiveObjects: 0.165200 ms CreateObjectMapping: 0.027900 ms MarkObjects: 1.512900 ms  DeleteObjects: 0.052300 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1850.
+Total: 1.650500 ms (FindLiveObjects: 0.119400 ms CreateObjectMapping: 0.028600 ms MarkObjects: 1.447900 ms  DeleteObjects: 0.053900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -157,162 +157,138 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Materials/Boards.mat
-  artifactKey: Guid(4a4172ab848257d4bab3038ece5ebdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Boards.mat using Guid(4a4172ab848257d4bab3038ece5ebdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a31e700df7cb03f15d2db89ff01169') in 0.297609 seconds 
-  Import took 0.299580 seconds .
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289988fcecf3b00d1602f8d2b589f7dd') in 0.186516 seconds 
+  Import took 0.198490 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Materials/Player.mat
-  artifactKey: Guid(0be2145268040fa4da21ad0dce675957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Player.mat using Guid(0be2145268040fa4da21ad0dce675957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad3fdcd049837cd9f5d1dfbac1c0880') in 0.052288 seconds 
-  Import took 0.054082 seconds .
+  Time since last request: 0.000160 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c2210586957436df79bf961aeff06e') in 0.062387 seconds 
+  Import took 0.064288 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Materials/Bounce.physicMaterial
-  artifactKey: Guid(a843d1e0afa35f049bc4c3e19d6b5fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Bounce.physicMaterial using Guid(a843d1e0afa35f049bc4c3e19d6b5fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ff324bf5ad3f89da71491f27f6002b') in 0.006590 seconds 
-  Import took 0.008242 seconds .
+  Time since last request: 0.000169 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0d2861f60500f05bd29199894f7bb5') in 0.068752 seconds 
+  Import took 0.070570 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/Materials/Ice.physicMaterial
-  artifactKey: Guid(a4bb54e3e9ec2ae4ba97f0f77e922cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Ice.physicMaterial using Guid(a4bb54e3e9ec2ae4ba97f0f77e922cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff651bba30fd0ad5f74d40b7af1c130') in 0.005447 seconds 
-  Import took 0.007531 seconds .
+  Time since last request: 0.000169 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1280cc7be10b532b2897fc8654f95d3') in 0.030081 seconds 
+  Import took 0.032000 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/Materials/Bounce.physicMaterial
-  artifactKey: Guid(a843d1e0afa35f049bc4c3e19d6b5fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Bounce.physicMaterial using Guid(a843d1e0afa35f049bc4c3e19d6b5fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ff324bf5ad3f89da71491f27f6002b') in 0.001899 seconds 
-  Import took 0.003512 seconds .
+  Time since last request: 420.984076 seconds.
+  path: Assets/TextMesh Pro/Fonts
+  artifactKey: Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts using Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c860dfdf0522eec1202f36843e52d436') in 0.006585 seconds 
+  Import took 0.009234 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/Materials/Puck.mat
-  artifactKey: Guid(7ee8ae75387dfec4f9b61e19fb1c39d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Puck.mat using Guid(7ee8ae75387dfec4f9b61e19fb1c39d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f59f8af4b4837e0c04371e56b29435') in 0.010405 seconds 
-  Import took 0.012409 seconds .
+  Time since last request: 0.074362 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdddd331c3f1b7826858a8d92db67e39') in 0.031703 seconds 
+  Import took 0.033860 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Materials/Ice.mat
-  artifactKey: Guid(442d357768b53284284ddf935b1e8253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Ice.mat using Guid(442d357768b53284284ddf935b1e8253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12123cdbda55377e6da4459662fe824') in 0.010437 seconds 
-  Import took 0.012392 seconds .
+  Time since last request: 5.333481 seconds.
+  path: Assets/TextMesh Pro/Fonts/Liquidrom.ttf
+  artifactKey: Guid(1a36b42d948507b49bde6845a04458dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Liquidrom.ttf using Guid(1a36b42d948507b49bde6845a04458dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a9c8592fb1c5cff421cefde714a7fd') in 0.015311 seconds 
+  Import took 0.017381 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(b480280c1cd4d334f888b1c23a07619d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(b480280c1cd4d334f888b1c23a07619d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb8522d24375d6cf6ebc34fbcdc0205') in 0.005373 seconds 
-  Import took 0.007302 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Materials/CPU.mat
-  artifactKey: Guid(38dd174f83dff8745922c2763019712f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/CPU.mat using Guid(38dd174f83dff8745922c2763019712f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76fa6d83781ffa2b7938cdfdaed690f5') in 0.009330 seconds 
-  Import took 0.011364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.752778 seconds.
-  path: Assets/Models/Paddle.fbx
-  artifactKey: Guid(cba4810c7153d404295c3919b101daa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Paddle.fbx using Guid(cba4810c7153d404295c3919b101daa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f608f5882fd5ad6b3dbb6414b794720e') in 0.524658 seconds 
-  Import took 0.526844 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.733565 seconds.
-  path: Assets/Scripts/Controls.cs
-  artifactKey: Guid(766d1ce4b760ce442b817cc1c015e221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Controls.cs using Guid(766d1ce4b760ce442b817cc1c015e221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ebaf47d3906524b5eeb33bcd3f78548') in 0.220931 seconds 
-  Import took 0.222969 seconds .
+  Time since last request: 26.375126 seconds.
+  path: Assets/TextMesh Pro/Fonts/Liquidrom SDF.asset
+  artifactKey: Guid(d822d39c016da594fab9f036e218efde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Liquidrom SDF.asset using Guid(d822d39c016da594fab9f036e218efde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dced58eda142ce7c8c0e4ebfed6591c') in 0.028446 seconds 
+  Import took 0.030780 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003681 seconds.
+Registered in 0.003100 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000247247D8030 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001C34461DE50 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000247273B3010 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001C348B04010 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000248FEF059E0 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001C347CE13E0 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002472332C020 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001C344C956E0 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000248FEDE2F30 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001C347DC4E10 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000248FF35F010 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001C34814A020 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000248FF087430 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001C3492AC420 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000247272B5010 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001C34814A020 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000248FEEA5520 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001C34BD56030 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000248FEF059E0 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001C347CE13E0 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024728468C00 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000001C348266020 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000248FF5780C0 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001C348C080A0 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000248FEECB4D0 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001C3445754B0 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.833 seconds
+- Completed reload, in  1.113 seconds
 Domain Reload Profiling:
-	ReloadAssembly (834ms)
-		BeginReloadAssembly (87ms)
+	ReloadAssembly (1114ms)
+		BeginReloadAssembly (93ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (690ms)
-			LoadAssemblies (67ms)
+		EndReloadAssembly (952ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (219ms)
+			SetupTypeCache (205ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (296ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (569ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (39ms)
-				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadAttributes (213ms)
 				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				AfterProcessingInitializeOnLoad (309ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1395 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1398 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 69.2 MB.
 System memory in use after: 69.3 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1893.
-Total: 1.930900 ms (FindLiveObjects: 0.151600 ms CreateObjectMapping: 0.027300 ms MarkObjects: 1.734500 ms  DeleteObjects: 0.016300 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1897.
+Total: 1.948000 ms (FindLiveObjects: 0.158700 ms CreateObjectMapping: 0.083600 ms MarkObjects: 1.689800 ms  DeleteObjects: 0.014900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -326,69 +302,69 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 118.386203 seconds.
-  path: Assets/Scripts/Controls.cs
-  artifactKey: Guid(766d1ce4b760ce442b817cc1c015e221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Controls.cs using Guid(766d1ce4b760ce442b817cc1c015e221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce58962e57f7f476c3b1608847184088') in 0.003516 seconds 
-  Import took 0.005389 seconds .
+  Time since last request: 200.690059 seconds.
+  path: Assets/Scripts/P2Controls.cs
+  artifactKey: Guid(e16b4314edc8468498a167d771215935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/P2Controls.cs using Guid(e16b4314edc8468498a167d771215935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d7f802d60fcb3a24a37034fbf2958a') in 0.264265 seconds 
+  Import took 0.266326 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003098 seconds.
+Registered in 0.003889 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000247247D8030 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001C34CD5D220 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024724C15010 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001C347FC3020 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024723CDD020 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001C347CE13E0 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000247272B5010 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001C347DB5870 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024726CB8040 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001C34BE64260 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024724C15010 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001C34814A020 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000248FF087430 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001C3492AC420 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000247272B5010 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001C34814A020 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000248FEDE2F30 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001C34BD56030 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024723CDD020 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001C347CE13E0 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000248FF03F9C0 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000001C347D3E070 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002472326B620 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001C348C080A0 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000248FEECB4D0 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001C34D3F5010 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.158 seconds
+- Completed reload, in  0.783 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1158ms)
-		BeginReloadAssembly (92ms)
+	ReloadAssembly (783ms)
+		BeginReloadAssembly (87ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1013ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (641ms)
 			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (206ms)
+			SetupTypeCache (203ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (633ms)
+			SetupLoadedEditorAssemblies (264ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (39ms)
-				ProcessInitializeOnLoadAttributes (580ms)
+				ProcessInitializeOnLoadAttributes (212ms)
 				ProcessInitializeOnLoadMethodAttributes (3ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
@@ -397,12 +373,94 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1395 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.2 MB.
-System memory in use after: 69.3 MB.
+Unloading 1398 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.3 MB.
+System memory in use after: 69.4 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1895.
-Total: 1.858300 ms (FindLiveObjects: 0.154200 ms CreateObjectMapping: 0.027200 ms MarkObjects: 1.660900 ms  DeleteObjects: 0.014800 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1899.
+Total: 1.811100 ms (FindLiveObjects: 0.164800 ms CreateObjectMapping: 0.031700 ms MarkObjects: 1.601400 ms  DeleteObjects: 0.012400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003278 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001C3449E8E50 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C347C72010 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C34C0B7020 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C34814A020 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C34E676F80 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C347C72010 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C3484ED030 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C34814A020 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C3499D5020 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C34C0B7020 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C3482BA020 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C3446EEB60 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C3483A4010 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.810 seconds
+Domain Reload Profiling:
+	ReloadAssembly (811ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (661ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (203ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (283ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (231ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1398 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.3 MB.
+System memory in use after: 69.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1901.
+Total: 1.783000 ms (FindLiveObjects: 0.124500 ms CreateObjectMapping: 0.028900 ms MarkObjects: 1.616400 ms  DeleteObjects: 0.012200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -416,91 +474,247 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.522907 seconds.
-  path: Assets/Scripts/Controls.cs
-  artifactKey: Guid(766d1ce4b760ce442b817cc1c015e221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Controls.cs using Guid(766d1ce4b760ce442b817cc1c015e221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3e6460a4f4c0a981057dfd4ec64b20') in 0.003611 seconds 
-  Import took 0.005693 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.549165 seconds.
-  path: Assets/Scripts/Controls.cs
-  artifactKey: Guid(766d1ce4b760ce442b817cc1c015e221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Controls.cs using Guid(766d1ce4b760ce442b817cc1c015e221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3e6460a4f4c0a981057dfd4ec64b20') in 0.001793 seconds 
-  Import took 0.003835 seconds .
+  Time since last request: 211.024843 seconds.
+  path: Assets/Scripts/P2Controls.cs
+  artifactKey: Guid(e16b4314edc8468498a167d771215935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/P2Controls.cs using Guid(e16b4314edc8468498a167d771215935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c048deed9219f9e6bdad50039101c19') in 0.003924 seconds 
+  Import took 0.006025 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003321 seconds.
+Registered in 0.003118 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000024727E8F970 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001C34D945D10 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024724F3E030 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001C34D421170 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024723CDD020 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001C347CE13E0 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000247283480B0 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001C34814A020 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000247272C2F80 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001C344AC1660 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024724F3E030 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001C34D421170 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000248FF087430 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001C3484ED030 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000247234B5A50 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001C34814A020 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000248FEDE2F30 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001C3499D5020 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024723CDD020 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001C347CE13E0 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024723918020 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000001C34EF49010 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000248FEBAC010 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001C34C7C1010 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000247246A6010 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001C34B940090 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.813 seconds
+Domain Reload Profiling:
+	ReloadAssembly (813ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (662ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (207ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (281ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (228ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1397 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.3 MB.
+System memory in use after: 69.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1902.
+Total: 1.855600 ms (FindLiveObjects: 0.136000 ms CreateObjectMapping: 0.028900 ms MarkObjects: 1.675200 ms  DeleteObjects: 0.014500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003319 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001C34F478820 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C34E6A6D50 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C347CE13E0 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C34EF69020 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C34830E020 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C3499E7410 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C349F62020 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C34EF69020 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C347C8EF10 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C34D42AFA0 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C34469BF70 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C349F36E40 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C349ABF030 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.064 seconds
+- Completed reload, in  0.763 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1065ms)
-		BeginReloadAssembly (96ms)
+	ReloadAssembly (764ms)
+		BeginReloadAssembly (85ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (918ms)
-			LoadAssemblies (63ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (627ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (201ms)
+			SetupTypeCache (196ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (545ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (262ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (37ms)
-				ProcessInitializeOnLoadAttributes (495ms)
+				BeforeProcessingInitializeOnLoad (36ms)
+				ProcessInitializeOnLoadAttributes (213ms)
 				ProcessInitializeOnLoadMethodAttributes (3ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1395 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.2 MB.
-System memory in use after: 69.3 MB.
+Unloading 1397 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.3 MB.
+System memory in use after: 69.4 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1897.
-Total: 1.744000 ms (FindLiveObjects: 0.147300 ms CreateObjectMapping: 0.027000 ms MarkObjects: 1.551800 ms  DeleteObjects: 0.016900 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1904.
+Total: 1.632800 ms (FindLiveObjects: 0.128300 ms CreateObjectMapping: 0.034900 ms MarkObjects: 1.457600 ms  DeleteObjects: 0.011200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003106 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001C34EF72E50 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C34F971AF0 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C347CE13E0 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C3498CEE50 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C34EF074F0 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C34F971AF0 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C349F62020 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C3498CEE50 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C3499D5020 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C347CE13E0 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C34830E020 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C34EA13630 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C34BC43030 doesn't match image C:\Users\Will\Documents\GitHub\AirHockey\AirHockey\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.979 seconds
+Domain Reload Profiling:
+	ReloadAssembly (979ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (829ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (199ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (459ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (408ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1397 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.3 MB.
+System memory in use after: 69.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1906.
+Total: 1.627100 ms (FindLiveObjects: 0.129000 ms CreateObjectMapping: 0.030000 ms MarkObjects: 1.451500 ms  DeleteObjects: 0.015500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
