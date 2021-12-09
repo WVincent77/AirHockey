@@ -16,7 +16,7 @@ public class BlueGoal : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        scoreText.text = "Red Score: " + scorePoint;
+        scoreText.text = "Red Score : " + scorePoint;
     }
 
     void OnCollisionEnter(Collision other)
@@ -25,7 +25,7 @@ public class BlueGoal : MonoBehaviour
         {
             Debug.Log("Red Scored!");
             scorePoint += 1;
-            scoreText.text = "Red Score: " + scorePoint;
+            scoreText.text = "Red Score : " + scorePoint;
         }
     }
 

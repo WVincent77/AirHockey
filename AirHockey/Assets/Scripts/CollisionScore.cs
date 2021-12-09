@@ -17,7 +17,7 @@ public class CollisionScore : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        scoreText.text = "Blue Score: " + scorePoint;
+        scoreText.text = "Blue Score : " + scorePoint;
     }
 
     void OnCollisionEnter (Collision other)
@@ -26,7 +26,7 @@ public class CollisionScore : MonoBehaviour
         {
             Debug.Log("Blue Scored!");
             scorePoint += 1;
-            scoreText.text = "Blue Score: " + scorePoint;
+            scoreText.text = "Blue Score : " + scorePoint;
         }
 
         /*

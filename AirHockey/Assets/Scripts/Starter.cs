@@ -19,8 +19,8 @@ public class Starter : MonoBehaviour
 
     public void BeginGame()
     {
-        Debug.Log(gameObject.name + " was clicked");
-        titleScreen.gameObject.SetActive(false);
+          Debug.Log(gameObject.name + " was clicked");
+          titleScreen.gameObject.SetActive(false);        
     }
 
 
