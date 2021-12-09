@@ -11,6 +11,7 @@ public class CollisionScore : MonoBehaviour
     public int scorePoint = 0;
     public int MaxScore;
     public TextMeshProUGUI scoreText;
+    private float yPosition = 0.03f;
 
 
     // Start is called before the first frame update
@@ -27,6 +28,13 @@ public class CollisionScore : MonoBehaviour
             scorePoint += 1;
             scoreText.text = "Blue Score: " + scorePoint;
         }
+
+        /*
+        if (other.gameObject.tag == "Puck")
+        {
+            transform.position = new Vector3(0, yPosition, 0);
+        }
+        */
     }
 
     // Update is called once per frame
