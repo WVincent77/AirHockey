@@ -7,10 +7,11 @@ using TMPro;
 
 public class BlueGoal : MonoBehaviour
 {
-
+    
     public int scorePoint = 0;
-    public int MaxScore;
+    public int maxScore;
     public TextMeshProUGUI scoreText;
+    public GameObject puck;
 
 
     // Start is called before the first frame update
@@ -32,6 +33,6 @@ public class BlueGoal : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 }
