@@ -1755,6 +1755,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   titleScreen: {fileID: 83424604}
+  puck: {fileID: 1644649177}
+  rPaddle: {fileID: 854773867}
+  bPaddle: {fileID: 500461209}
+  rb: {fileID: 0}
 --- !u!114 &1372890073
 MonoBehaviour:
   m_ObjectHideFlags: 0
