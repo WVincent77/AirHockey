@@ -13,6 +13,7 @@ public class ResetPuck : MonoBehaviour
     private float yPaddle = -0.14f;
     private float zRPaddle = -3.9f;
     private float zBPaddle = 3.9f;
+    private float xPuck = -2.5f;
 
     // Start is called before the first frame update
     void Start()
@@ -24,14 +25,14 @@ public class ResetPuck : MonoBehaviour
     {
         if (other.gameObject.tag == "RedGoal")
         {
-            transform.position = new Vector3(0, yPosition, 0);
+            transform.position = new Vector3(xPuck, yPosition, 0);
             redPaddle.transform.position = new Vector3(0, yPaddle, zRPaddle);
             bluePaddle.transform.position = new Vector3(0, yPaddle, zBPaddle);
         }
 
         if (other.gameObject.tag == "BlueGoal")
         {
-            transform.position = new Vector3(0, yPosition, 0);
+            transform.position = new Vector3(xPuck, yPosition, 0);
             redPaddle.transform.position = new Vector3(0, yPaddle, zRPaddle);
             bluePaddle.transform.position = new Vector3(0, yPaddle, zBPaddle);
         }

@@ -9,7 +9,7 @@ public class BlueGoal : MonoBehaviour
 {
     
     public int scorePoint = 0;
-    public int maxScore;
+    public int maxScore = 7;
     public TextMeshProUGUI scoreText;
     public GameObject puck;
 
@@ -33,6 +33,11 @@ public class BlueGoal : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        /*
+        if (maxScore = scorePoint)
+        {
+            Debug.Log("Winner!");
+        }
+        */
     }
 }

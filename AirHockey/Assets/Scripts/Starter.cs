@@ -21,6 +21,9 @@ public class Starter : MonoBehaviour
         button = GetComponent<Button>();       
         titleScreen.gameObject.SetActive(true);
         button.onClick.AddListener(BeginGame);
+        puck.gameObject.SetActive(false);
+        rPaddle.gameObject.SetActive(false);
+        bPaddle.gameObject.SetActive(false);
         /*
         puck.gameObject.GetComponent<RigidBody>();
         rPaddle.gameObject.GetComponent<RigidBody>();
@@ -35,11 +38,9 @@ public class Starter : MonoBehaviour
     {
           Debug.Log(gameObject.name + " was clicked");
           titleScreen.gameObject.SetActive(false);
-          /*
-          puck.constraints = RigidbodyConstraints.None;
-          rPaddle.constraints = RigidbodyConstraints.None;
-          bPaddle.constraints = RigidbodyConstraints.None;
-          */
+          puck.gameObject.SetActive(true);
+          rPaddle.gameObject.SetActive(true);
+          bPaddle.gameObject.SetActive(true);
     }
 
 
